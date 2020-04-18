@@ -1,0 +1,14 @@
+{
+"compilerOptions": {
+  "module": "CommonJS",
+  "esModuleInterop":true,
+  "noImplicitAny": true,
+  "removeComments": true,
+  "preserveConstEnums": true,
+  "baseUrl": "./src",
+  "outDir": "deploy/src",
+  "sourceMap": true
+},
+"include": ["src/**/*.ts"],
+"exclude": ["node_modules", "**/*.spec.ts"]
+}

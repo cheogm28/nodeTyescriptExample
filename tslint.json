@@ -1,0 +1,17 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-eslint-rules"
+    ],
+    "jsRules": {},
+    "rules": {"quotemark": [true, "double"], "space-within-parens": true,  "switch-final-break": true, "object-literal-sort-keys":true, "variable-name": {
+        "options": [
+          "ban-keywords",
+          "check-format",
+          "allow-leading-underscore",
+          "allow-pascal-case"
+        ]
+      }},
+    "rulesDirectory": ["node_modules/tslint-eslint-rules/dist/rules"]
+}
