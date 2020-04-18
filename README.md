@@ -38,7 +38,8 @@ curl --location --request GET 'http://localhost:8080/api/v1/User/' \
 --header 'Accept-Charset: application/json' \
 ```
 
-```curl --location --request POST 'http://localhost:8080/api/v1/User/1' \
+```
+curl --location --request POST 'http://localhost:8080/api/v1/User/1' \
 --header 'Accept-Charset: application/json' \
 --header 'Content-Type: application/json' \
---data-raw '{}'``
+--data-raw '{}' ```
