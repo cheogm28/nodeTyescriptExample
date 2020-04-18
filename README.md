@@ -31,3 +31,14 @@ The classes that represents the resources and other objects that we need to solv
 
 ## Openapi
 representation of the apis that the services for more details check https://www.openapis.org/
+
+# Example 
+```
+curl --location --request GET 'http://localhost:8080/api/v1/User/' \
+--header 'Accept-Charset: application/json' \
+```
+
+```curl --location --request POST 'http://localhost:8080/api/v1/User/1' \
+--header 'Accept-Charset: application/json' \
+--header 'Content-Type: application/json' \
+--data-raw '{}'``
